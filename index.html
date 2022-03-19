@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:regular,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,700," rel="stylesheet" />
+    <link rel="shortcut icon" href="./assets/icons/Arty63.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>CV</title>
+</head>
+<body>
+    <div class="container">
+        <a class=" buble-up buble-up__link" href="#main">Up</a>
+        <header class="header ">
+            <div class="logo">
+                <a href="https://github.com/arty63" class="logo__link">ARTY63</a>
+            </div>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#about" class="navigation__link">About me</a></li>
+                    <li class="navigation__item"><a href="#skills" class="navigation__link">Skills</a></li>
+                    <li class="navigation__item"><a href="#code" class="navigation__link">Code for example</a></li>
+                    <li class="navigation__item"><a href="#portfolio" class="navigation__link">Portfolio</a></li>
+                    <li class="navigation__item"><a href="#contacts" class="navigation__link">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main >
+            <section id="main" class="main">
+                <div class="main__text">
+                    <h1 class="title">Ivanov Artem</h1>
+                    <h2 class="subtitle">Junior frontend developer</h2>
+                    <div class="main__back"></div>
+                </div>
+                <a href="#about" class="button">About me</a>
+            </section>
+            <section id="about" class="about">
+                <h3 class="subtitle ">About me</h3>
+                <div class="about__paralax">
+                    
+                </div>
+                <div class="about__box">
+                    <img class="about__img" src="./assets/img/3.png" alt="drawing">
+                    <p class="about__description">I'm currently working as a disign engineer in KROHNE company. I wish to learning new skills in new areas and don't stop there. That is the main reason why I’ve decided to try something new (rs school). I hope my diligence and the courses will help me to obtain useful knowledge.</p>
+                </div>
+                
+            </section>
+            <section id="skills">
+                <h3 class="subtitle colored ">My skills</h3>
+                <div class="skills">
+                    <ul class="skills__list">
+                        <li class="skills__item"><img class="skills__img" src="./assets/icons/html.svg" alt="html"></li>
+                        <li class="skills__item"><img class="skills__img" src="./assets/icons/css.svg" alt="css"></li>
+                        <li class="skills__item"><img class="skills__img" src="./assets/icons/sass.svg" alt="sass"></li>
+                        <li class="skills__item"><img class="skills__img" src="./assets/icons/js.svg" alt="js"></li>
+                        <li class="skills__item"><img class="skills__img" src="./assets/icons/GitHub.png" alt="git"></li>
+                        <li class="skills__item"><img class="skills__img" src="./assets/icons/figma.svg" alt="figma"></li>
+                        <li class="skills__item"><img class="skills__img" src="./assets/icons/python.svg" alt="python"></li>
+                    </ul>
+                </div>
+                
+            </section>
+            <section id="code" >
+                <h3 class="subtitle ">Code for example</h3>
+                <code >
+                    <pre class="code">
+    function solution(number){
+        let count = 0
+            for(let i = 1; i < number; i++){
+                if (i%3==0 || i%5==0){
+            count+=i
+            }
+        }return count
+    }
+                    </pre>   
+                </code>
+            </section>
+            <section id="portfolio" class="portfolio">
+                <h3 class="subtitle colored ">My projects</h3>
+            </section>
+            <section id="contacts">
+                <h3 class="subtitle">Contacts</h3>
+                <ul class="contacts__information">
+                    <li class="contacts__item" >Phone: <a href="tel:+79270050702">+79270050702</a></li>
+                    <li class="contacts__item">E-mail: <a href="mailto:artjom63@mail.ru">artjom63@mail.ru</a></li>
+                    <li class="contacts__item">Github page: <a href="https://github.com/arty63">arty63</a></li> 
+                    <li class="contacts__item">Location: Samara, Russia</li>
+                    <li class="contacts__item">English Language Level: A2 (pre-intermediate)</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">    
+            <div class="my-github">
+                <a href="https://github.com/arty63">
+                    <img src="./assets/icons/GitHub.png" alt="Github" width="50">
+                </a>
+            </div>
+            <div class='footer__prooves'>
+                <span class="footer___text">All prooves protected © 2022</span>
+            </div>
+            <div class="footer__rs">
+            <a href="https://rs.school/js/">
+                <img class= "footer__rs-img" src="https://rs.school/images/rs_school_js.svg" alt="Rsschool Icon">
+            </a>
+        </footer>
+    </div>  
+</body>
+</html>
