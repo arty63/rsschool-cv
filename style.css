@@ -128,7 +128,7 @@ html {
   position: relative;
   display: flex;
   flex-direction: column;
-  background-image: url(../assets/img/1.png);
+  background-image: url(./assets/img/1.png);
   background-repeat: no-repeat;
   background-position: 85% 50%;
   justify-content: space-between; }
@@ -148,7 +148,7 @@ html {
 
 @media (max-width: 1279.98px) {
   .main__back {
-    background-image: url(../assets/img/1.png);
+    background-image: url(./assets/img/1.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: contain;
@@ -223,7 +223,7 @@ h3 {
     background-color: #fff; }
 
 .about__paralax {
-  background: url(/assets/img/me.jpg) center no-repeat;
+  background: url(./assets/img/me.jpg) center no-repeat;
   height: 300px;
   background-attachment: fixed;
   width: 100%; }
